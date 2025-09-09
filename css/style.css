@@ -1,0 +1,133 @@
+.main-header
+    {
+        background-color: black;
+        text-align: right;
+    color: aquamarine;
+    background-color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    padding: 15px;
+    width: 100px;
+    box-sizing: border-box;
+
+}
+.main-header.logo
+{
+    width: 55px;
+    height: 55px;
+    padding: 8px 14px;
+    margin: 10px 0;
+}
+ .main-header.logo img
+{
+    border: 5px;
+
+
+}
+.main-header .titles
+{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-style: oblique;
+    text-transform: capitalize;
+}
+
+h1
+{
+    color: black;
+}
+.bgimage
+{
+    background-image: url("../121193999.webp");
+    background-repeat: no no-repeat ;
+    background-position: centre;
+    text-align: cen;
+}
+.main-component
+{
+    display: flex;
+    border: 2px solid navy;
+}
+.box
+{
+    width: 620px;
+    height: 260px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: medium;
+    transform-timing-function:linear;
+}
+#box1
+{
+    background-color: aqua;
+    transition-timing-function: linear;
+}
+#box1:hover
+    background-color: azure;
+    width:250px;
+}
+#box2{
+    background-color: aquamarine;
+    transition-timing-function: ease-out;
+}
+#box2:hover{
+    background-color: bisque;
+    width:250px;
+}
+#box3
+{
+    background-color: darkgreen;
+    transition-timing-function: ease-in;
+}
+#box4{
+    background-color: chocolate;
+    transition-timing-function: ease-out;
+}
+#box4:hover
+{
+   background-color: darkmagenta;
+   width: 250px;
+}
+div:hover
+{width:250px
+
+}
+@keyframes amimid{
+
+}
+.animi
+{
+    width: 150px;
+    height: 150px;
+    background-color: darkkhaki;
+    animation-name: animid;
+    animation-duration: 4s;
+
+}
+.scrolltext span{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    width:100px;
+    color: blue;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 2px solid red;
+
+
+
+}
+@keyframes scroll-left{
+    from{transform: translateX(-100%);}
+    to {transform: translateX(100%);}
+}
+
+
+
+.scrolltext span{
+    display: inline-block;
+    padding-right: 100%;
+    animation: scroll-right 10s linear infinite;
+}
+
